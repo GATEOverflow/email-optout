@@ -1,0 +1,12 @@
+{
+	"name": "Email Optout",
+	"description": "Adds a user option to opt out of all site-generated email notifications in Q2A",
+	"uri": "",
+	"version": "1.O",
+	"date": "2025-06-25",
+	"author": "Shaik Masthan",
+	"author_uri": "https://github.com/csemasthan/",
+	"license": "GPLv2",
+	"min_q2a": "1.7.5",
+	"load_order": "after_db_init"
+}
