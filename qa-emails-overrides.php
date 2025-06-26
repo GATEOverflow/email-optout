@@ -12,7 +12,7 @@ function qa_send_notification($userid, $email, $handle,$subject, $body, $subs, $
 
         if ($optout === '1') {
 			error_log("optedout");
-            return;                 // user opted out → abort send
+            return true;                 // user opted out → abort send
         }
         // if key absent or '0' we continue
     }
